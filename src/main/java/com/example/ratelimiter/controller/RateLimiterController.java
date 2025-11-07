@@ -41,7 +41,6 @@ public class RateLimiterController {
             d = tokenLimiter.allow(key, capacity, rate);
         }
 
-        // 200 when allowed; 429 when not allowed (gateway-style)
         return new ResponseEntity<>(d, d.isAllowed() ? HttpStatus.OK : HttpStatus.TOO_MANY_REQUESTS);
     }
 

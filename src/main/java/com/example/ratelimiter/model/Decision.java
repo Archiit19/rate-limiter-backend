@@ -27,22 +27,58 @@ public class Decision {
     }
 
     // getters & setters
-    public String getAlgorithm() { return algorithm; }
-    public void setAlgorithm(String algorithm) { this.algorithm = algorithm; }
-    public String getClientId() { return clientId; }
-    public void setClientId(String clientId) { this.clientId = clientId; }
-    public boolean isAllowed() { return allowed; }
-    public void setAllowed(boolean allowed) { this.allowed = allowed; }
-    public String getReason() { return reason; }
-    public void setReason(String reason) { this.reason = reason; }
-    public double getTokensLeft() { return tokensLeft; }
-    public void setTokensLeft(double tokensLeft) { this.tokensLeft = tokensLeft; }
-    public int getQueueSize() { return queueSize; }
-    public void setQueueSize(int queueSize) { this.queueSize = queueSize; }
-    public int getCapacity() { return capacity; }
-    public void setCapacity(int capacity) { this.capacity = capacity; }
-    public double getRate() { return rate; }
-    public void setRate(double rate) { this.rate = rate; }
-    public long getTimestampMs() { return timestampMs; }
-    public void setTimestampMs(long timestampMs) { this.timestampMs = timestampMs; }
+    public String getAlgorithm() {
+        return algorithm;
+    }
+    public void setAlgorithm(String algorithm) {
+        this.algorithm = algorithm;
+    }
+    public String getClientId() {
+        return clientId;
+    }
+    public void setClientId(String clientId) {
+        this.clientId = clientId;
+    }
+    public boolean isAllowed() {
+        return allowed;
+    }
+    public void setAllowed(boolean allowed) {
+        this.allowed = allowed;
+    }
+    public String getReason() {
+        return reason;
+    }
+    public void setReason(String reason) {
+        this.reason = reason;
+    }
+    public double getTokensLeft() {
+        return tokensLeft;
+    }
+    public void setTokensLeft(double tokensLeft) {
+        this.tokensLeft = tokensLeft;
+    }
+    public int getQueueSize() {
+        return queueSize;
+    }
+    public void setQueueSize(int queueSize) {
+        this.queueSize = queueSize;
+    }
+    public int getCapacity() {
+        return capacity;
+    }
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+    public double getRate() {
+        return rate;
+    }
+    public void setRate(double rate) {
+        this.rate = rate;
+    }
+    public long getTimestampMs() {
+        return timestampMs;
+    }
+    public void setTimestampMs(long timestampMs) {
+        this.timestampMs = timestampMs;
+    }
 }
