@@ -29,18 +29,6 @@ GET /rate/test
 3. Maven 3.9+
 4. REST API tested with curl / Postman
 
-### Project Structure
-
-rate-limiter-backend/
-├── pom.xml
-└── src/main/java/com/example/ratelimiter/
-├── RateLimiterApplication.java
-├── controller/RateLimiterController.java
-├── model/Decision.java
-└── service/
-├── TokenBucketLimiter.java
-└── LeakyBucketLimiter.java
-
 ###  Run Locally
 
 1️⃣ Build the project
